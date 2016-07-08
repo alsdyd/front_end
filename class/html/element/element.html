@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+  <style type="text/css">
+   td{color: azure; background-color: black; padding: 20px; text-align: center;}
+   th{background-color: yellowgreen; padding: 20px;}
+  </style>
+
+
+</head>
+<body>
+
+  <!-- 제목(Heading) 태그 : block -->
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+  <!--// 제목(Heading) 태그 -->
+
+
+  <!--단락(Paragraph) 태그 : block -->
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+  <!--// 단락(Paragraph) 태그 -->
+
+
+  <!-- 링크(Anchor) 태그 : inline -->
+  <!--
+  <a> attribute(속성) - href : 링크연결주소입력
+  <a> href="연결할 주소">표시할 텍스트</a>
+   -->
+<a href="http://www.bsmy11.com"><img src="newmi.png" alt="뉴미디어디자인" width="400" height="100"/></a>
+  <!--// 링크(Anchor) 태그 -->
+
+
+  <!-- 이미지(image) 태그 : inline -->
+  <!--
+    이미지포맷
+       jpg : 사진
+       gif : 로고,그래프,투명 배경
+       png : 다목적, 투명 배경
+     src : 이미지 파일 경로및 이름
+     alt : 이미지 설명을 위한 대체 텍스트
+  -->
+<img src="beevery.png" alt="곰"/>
+  <!--// 이미지(image) 태그 -->
+
+
+  <!-- 순서 없는 목록 : block -->
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+  <!--// 순서 없는 목록 -->
+
+
+  <!-- 순서 있는 목록 : block -->
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+  <!--// 순서 있는 목록 -->
+
+
+  <!-- 정의 목록 : block -->
+    <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+    </dl>
+  <!--// 정의 목록 -->
+
+
+  <!-- 포함된 리스트 -->
+    <ul>
+      <li>Coffee</li>
+      <li>
+        <p>Tea</p>
+        <ul>
+          <li>Black tea</li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+    </ul>
+  <!--// 포함된 리스트 -->
+
+
+  <!-- 예시 -->
+
+    <ol>
+      <li>
+        <p>역사</p>
+      <ol>
+        <li>개발</li>
+        <li>최조 규격</li>
+        <li>
+          <p>표준 버전의 역사</p>
+          <ol>
+            <li>HTML 버전 스케줄</li>
+            <li>HTML 초안 버전 스케줄</li>
+            <li>XHTML 버전</li>
+          </ol>
+        </li>
+      </ol>
+      </li>
+      <li>마크업
+      <ol>
+        <li>
+          <P>HTML요소</P>
+          <ol>
+            <li>HTML 요소의 일반적인 형태</li>
+            <li>HTML 요소의 가장 보편적인 형태</li>
+            <li>태그의 기본적인 형태</li>
+            <li>단락 구획</li>
+            <li>각주</li>
+            <li>HTML에서 사용되는 마크업 요소의 형태</li>
+            <li>주요 HTML 요소들</li>
+            <li>속성</li>
+          </ol>
+        </li>
+        <li>데이터형식</li>
+        <li>문자 형식 선언</li>
+      </ol>
+      </li>
+      <li>시맨틱웹</li>
+      <li>
+        <P>전송</P>
+        <ol>
+          <li>HTTP</li>
+          <li>HTML 전자 우편</li>
+          <li>명명 규칙</li>
+          <li>HTML 애플리케이션</li>
+        </ol>
+      </li>
+      <li>위지위그 편집기</li>
+      <li>같이 보기</li>
+      <li>참조</li>
+      <li>
+        <p>바깥 고리</p>
+      <ol>
+        <li>HTML 강좌</li>
+      </ol>
+      </li>
+    </ol>
+
+  <!--// 예시 -->
+
+
+
+  <!-- iframe 태그 : inline -->
+  <iframe src="http://www.daum.net"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Se2tmNL5fPI" frameborder="0" allowfullscreen></iframe>
+  <!--// iframe 태그 -->
+
+
+  <!-- 특수문자 -->
+<p>3 &lt; 5</p>
+<P>5 &gt; 3</P>
+<p>boys &amp; girls </p>
+<p>Anericabobo &nbsp;&nbsp;&nbsp;&nbsp; coffee</p>
+  <!--// 특수문자 -->
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+<!-- 테이블 -->
+<table summary="" >
+  <caption></caption>
+  <colgroup>
+    <col />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>성적</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>총점</td>
+      <td>270</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>국어</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>영어</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>수학</td>
+      <td>90</td>
+    </tr>
+  </tbody>
+</table>
+      <!-- 테이블 -->
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+<table summary="">
+  <caption></caption>
+  <colgroup>
+    <col/>
+  </colgroup>
+
+  <thead>
+
+  </thead>
+  <tbody>
+  <tr>
+    <td>소속</td>
+    <td>전공</td>
+    <td>내선</td>
+    <td>호실</td>
+  </tr>
+  <tr>
+    <td rowspan="4">대학원 교학팀</td>
+    <td>일반,신학</td>
+    <td>530-2602,2604,2684</td>
+    <td rowspan="4">본409B</td>
+  </tr>
+  <tr>
+    <td>교육</td>
+    <td>530-2604</td>
+  </tr>
+  <tr>
+    <td>행정,통번역,무도</td>
+    <td>530-2606</td>
+  </tr>
+  <tr>
+    <td>통합의학</td>
+    <td>530-2617</td>
+  </tr>
+  <tr>
+    <td colspan="2">신학순결대학교학팀</td>
+    <td>530-2501,2685</td>
+    <td>본403A</td>
+  </tr>
+  <tr>
+    <td colspan="2">신학순결학과</td>
+    <td>530-268</td>
+    <td>본403A</td>
+  </tr>
+  <tr>
+    <td colspan="2">인문사회대학교학팀</td>
+    <td>530-2501,2503</td>
+    <td>본317</td>
+  </tr>
+  <tr>
+    <td colspan="2">국어국문학과</td>
+    <td>530-2403</td>
+    <td rowspan="3">인201</td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">역사문화콘텐츠학과</td>
+    <td>530-2455(역사)</td>
+  </tr>
+  <tr>
+    <td>530-2491(문화)</td>
+  </tr>
+  <tr>
+    <td colspan="2">시각디자인학과</td>
+    <td>530-2594,2564</td>
+    <td>원628A</td>
+  </tr>
+  </tbody>
+</table>
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+
+<!-- 폼요소 input 태그 : inline -->
+<form>
+  <fieldset>
+    <legend>input 요소</legend>
+  <input type="button" value="확인"/> <br/>
+  <input type="checkbox" /> <br/>
+  <input type="file" /> <br/>
+  <input type="image" /> <br/>
+  <input type="password" /> <br/>
+  <input type="radio" /> <br/>
+  <input type="submit" /> <br/>
+  <input type="text" />
+  </fieldset>
+</form>
+<!--// 폼요소 -->
+
+
+<!-- select 태그 -->
+<fieldset>
+  <legend>selcet 요소</legend>
+  <select>
+    <optgroup label="초급">
+      <option>html</option>
+    </optgroup>
+   <optgroup label="중급">
+     <option>css</option>
+     <option>js</option>
+   </optgroup>
+  </select>
+  <select>
+    <option>html</option>
+    <option>css</option>
+    <option>js</option>
+  </select>
+  <select>
+    <option>html</option>
+    <option>css</option>
+    <option>js</option>
+  </select>
+</fieldset>
+<!--// select 태그 -->
+
+
+<!-- textarea 태그 -->
+<fieldset>
+  <legend>textarea 요소</legend>
+  <textarea></textarea>
+  <textarea cols="100" rows="10">시각디자인</textarea>
+</fieldset>
+<!--// textarea 태그 -->
+
+
+<!-- button 태그 -->
+<fieldset>
+  <legend>button 요소</legend>
+<butten type="button" onclick="alert('Hello World!')">확인</butten>
+<butten type="reset">확인</butten>
+</fieldset>
+<!--// button 태그 -->
+
+
+
+
+<!-- Label 태그 -->
+<fieldset>
+  <legend>Label 요소</legend>
+  <label for="name">이름</label>
+  <input type="text" id="name" />
+</fieldset>
+<!--// Label 태그 -->
+
+
+
+<!-- div : block -->
+<div>블러 영역</div>
+<div>블러 영역</div>
+<!--// div -->
+
+
+<!-- span : inline -->
+<span>인라인 영역</span>
+<span>인라인 영역</span>
+<!--// span-->
+
+
+
+
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+<ul>
+  <li>
+    <p>학교소개</p>
+      <ul>
+        <li>
+          <p>총장실</p>
+            <ul>
+              <li>인사말</li>
+              <li>총장약력</li>
+              <li>총장동정</li>
+              <li>역대총장</li>
+              <li>총장과의 대화</li>
+            </ul>
+        </li>
+        <li>
+          <p>역사/이념</p>
+            <ul>
+              <li>연혁</li>
+              <li>설립취지</li>
+              <li>건학이념</li>
+              <li>교육목적 및 목표</li>
+            </ul>
+        </li>
+      </ul>
+  </li>
+  <li>
+    <p>입학안내</p>
+      <ul>
+        <li>대학</li>
+        <li>대학원</li>
+        <li>한국어교육원</li>
+      </ul>
+  </li>
+  <li>
+    <p>대학/대학원</p>
+      <ul>
+        <li>
+          <p>대학</p>
+            <ul>
+              <li>신학순결대학</li>
+              <li>인문사회대학</li>
+              <li>글로벌비즈니스외국어대학</li>
+              <li>건강보건대학</li>
+              <li>공과대학</li>
+              <li>교양교육원</li>
+            </ul>
+        </li>
+        <li>
+          <p>대학원</p>
+            <ul>
+              <li>일반대학원</li>
+              <li>신학전문대학원</li>
+              <li>교육대학원</li>
+              <li>글로컬통합대학원</li>
+            </ul>
+        </li>
+      </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+</body>
+</html>
