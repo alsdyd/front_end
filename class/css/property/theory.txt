@@ -1,0 +1,143 @@
+*** Selector(선택자 우선순위) ***
+
+  1. id Attribute   (#)
+  2. class   (.)
+  3. Tag
+
+
+  id : 고유해야한다 (중복불가)
+
+  ★ class : 중복가능  // 클레스이름을 쓸땐 줄임말로 쓰지말자, 구분이 필요할땐 하이픈( - )을 사용
+
+
+
+
+
+*** css 포함방법 ***
+
+1. inline
+  ex)
+  <div style="color:red"></div>
+
+
+2. embed (internal)
+  ex)
+  <style>
+    p{color:red;}
+  </style>
+
+
+3. external
+
+  ex)
+  파일 : style.css
+  <link rel="stylesheet" href="style.css"/>
+
+
+
+
+
+
+*** 문법 ***
+
+  selector {
+    property : property 값 ;
+    property : property 값 ;
+    property : property 값 ;
+    }
+
+
+
+
+
+
+*** border property 정리 ***
+
+  border-style
+  border-width
+  border-color
+  border-radius
+
+
+1. 4방향 모두 공통 적용
+  border: {굵기 종류 색;}
+
+
+2. 각각의 방향에 공통적용
+  border-top: {굵기 종류 색;}
+  border-right: {굵기 종류 색;}
+  border-bottom: {굵기 종류 색;}
+  border-left: {굵기 종류 색;}
+
+
+3. 각각의 방향, css 속성 적용
+  border-top-style,
+  border-top-width,
+  border-top-color,
+  border-right-style,
+  border-right-width,
+  border-right-color,
+  ...
+
+
+
+
+*** CSS 단위 ***
+
+px : 숫자 고정값
+
+em : body에 적용된 기본 폰트 크기의 배수
+
+% : parent tag 영역의 비율로 크기 결정
+
+
+ex)
+  @html
+    <div>
+      <p>단락</p>
+    </div>
+
+  @css
+    p{width:50%;}
+
+    => p 태그의 영역 가로 길이는 div 태그 영역의 50%의 크기
+
+
+
+*** width / max-width / min-width ***
+
+width : 가로길이
+max-width : 최대 가로길이
+min-width : 최소 가로길이
+
+
+*** float property ***
+
+float right
+float left
+float none
+
+
+
+
+
+
+
+*** float & clear ***
+
+  float된 영역의 부모 element는 높이가 인식되지않으므로,
+하단영역과의 관계가 제대로 표현되지 않을 수 있음
+
+
+  하단영역의 clear:both 가 제대로 동작하게 하려면, float 된
+영역의 parent element의 높이가 인식되어야함
+
+  float된 영역의 parent element의 높이를 인식시키는 방법
+4가지 Comming soon!
+
+
+
+
+
+
+    성지키기 : http://gametimes.tistory.com/82

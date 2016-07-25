@@ -1,0 +1,151 @@
+/*
+웹페이지 전체 가로길이 980px
+브라우저 가운데 정렬
+header 세로 : 100px
+lnb 가로 : 160px
+footer 세로 : 100px
+
+*/
+
+body{
+  background: black;
+}
+
+.wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+  margin-bottom: 20px;
+
+  color: #fff;
+  background-color: #666;
+  border: 5px solid gold;
+  border-style: dashed;
+  overflow: hidden;
+}
+
+.container:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.lnb{
+  width: 160px;
+  height: 400px;
+  margin-right: 20px;
+  float: left;
+
+  color: #fff;
+  background-color: #888;
+  border: 5px solid gold;
+  border-style: outset;
+}
+
+.contents-box{
+  width:790px;
+  float: left;
+}
+
+.contents01{
+  width: /*49%;*/  780px;
+  height: 600px;
+  float: left;
+  /* margin-right: 1%;  10px; */
+  color: #fff;
+  background-color: #999;
+  border: 5px solid gold;
+  border-style: outset;
+  overflow: hidden;
+}
+
+
+.contents02{
+  width: /*49%;*/  375px;
+  height: 600px;
+  float: right;
+  margin-left: /*1%;*/  10px;
+  color: #fff;
+  background-color: #888;
+  border: 5px solid gold;
+  border-style: outset;
+  overflow: auto;
+}
+
+.footer{
+  height: 100px;
+  margin-top: 20px;
+  clear: both;
+
+  color: #fff;
+  background-color: #666;
+  border: 5px solid gold;
+  border-style: dashed;
+}
+
+
+.gidung01{
+  width: 25px;
+  height: 620px;
+  position: absolute;
+  top: 130px;
+  left: 850px;
+  background: black;
+}
+
+.gidung02{
+  width: 25px;
+  height: 620px;
+  position: absolute;
+  top: 130px;
+  left: 950px;
+  background: black;
+}
+
+.gidung03{
+  width: 25px;
+  height: 620px;
+  position: absolute;
+  top: 130px;
+  left: 1050px;
+  background: black;
+}
+
+.gidung04{
+  width: 25px;
+  height: 620px;
+  position: absolute;
+  top: 130px;
+  left: 1150px;
+  background: black;
+}
+
+.gidung05{
+  width: 25px;
+  height: 620px;
+  position: absolute;
+  top: 130px;
+  left: 1250px;
+  background: black;
+}
+
+.gidung06{
+  width: 25px;
+  height: 620px;
+  position: absolute;
+  top: 130px;
+  left: 750px;
+  background: black;
+}
+
+.gidung07{
+  width: 25px;
+  height: 620px;
+  position: absolute;
+  top: 130px;
+  left: 1350px;
+  background: black;
+}

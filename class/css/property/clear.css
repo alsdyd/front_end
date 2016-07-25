@@ -1,0 +1,55 @@
+.case1,
+.case2,
+.case3,
+.case4{
+  border:1px solid black;
+  margin-bottom: 10px;
+}
+
+
+.box1{
+  width: 300px;
+  height: 120px;
+  background: darkseagreen;
+  float: left;
+}
+
+
+.box2{
+  width: 300px;
+  height: 120px;
+  background: moccasin;
+  float: right;
+}
+
+
+.clear-box{
+  height: 100px;
+  background: sandybrown;
+  margin-top: 10px;
+  clear: both;
+}
+
+
+.float-wrap{
+  float: left;
+  /* position:앱솔루트 또는 float을 주면 가로길이가 컨텐츠영역(child영역)만큼만 바뀜. but, 영역인식은 되나 마진인식이 제대로 되지않는다 */
+}
+
+
+
+.overflow-wrap{
+  overflow: hidden;
+}
+
+
+.empty-tag-wrap .clearfix{
+  clear: both;
+}
+
+
+.pseudo-wrap:after{
+  content:"";
+  display: block;
+  clear: both;
+}

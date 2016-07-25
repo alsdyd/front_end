@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>배스킨라빈스</title>
+
+  <style type="text/css">
+    body{
+      cursor: crosshair;
+      background: #ff7c98;
+    }
+
+    .btn_search{
+      display: block;
+      width: 54px;
+      height: 54px;
+      background: url("images/br31/icon_search.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+
+    .btn_logo{
+      display: block;
+      width: 94px;
+      height: 94px;
+      background: url("images/br31/logo_baskinrobbins.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+      margin: auto;
+    }
+
+    .btn_menu_list01{
+      display: block;
+      width: 440px;
+      height: 440px;
+      background: url("images/br31/img_menu_list_03.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_menu_list02{
+      display: block;
+      width: 444px;
+      height: 604px;
+      background: url("images/br31/img_menu_list_03-03.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_menu_list03{
+      display: block;
+      width: 229px;
+      height: 402px;
+      background: url("images/br31/img_menu_list_05.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_menu_list04{
+      display: block;
+      width: 373px;
+      height: 333px;
+      background: url("images/br31/img_menu_list_08.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_menu_list05{
+      display: block;
+      width: 444px;
+      height: 461px;
+      background: url("images/br31/img_menu_list_09.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_menu_list06{
+      display: block;
+      width: 403px;
+      height: 280px;
+      background: url("images/br31/img_menu_list_10.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+
+    .btn_fb_snslogo{
+      display: block;
+      width: 62px;
+      height: 62px;
+      background: url("images/br31_image/sns/sns_facebook.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_twt_snslogo{
+      display: block;
+      width: 62px;
+      height: 62px;
+      background: url("images/br31_image/sns/sns_twitter.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_blog_snslogo{
+      display: block;
+      width: 62px;
+      height: 62px;
+      background: url("images/br31_image/sns/sns_blog.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_ins_snslogo{
+      display: block;
+      width: 62px;
+      height: 62px;
+      background: url("images/br31_image/sns/sns_instagram.png") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+
+    .btn_store{
+      display: block;
+      width: 600px;
+      height: 260px;
+      background: url("images/br31_image/img_store.jpg") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+    .btn_happyorder_delivery{
+      display: block;
+      width: 600px;
+      height: 260px;
+      background: url("images/br31_image/img_happyorder_delivery.jpg") no-repeat;
+      text-indent: -99999em;
+      border: 0px;
+      cursor: pointer;
+    }
+
+
+
+
+
+    ul{
+      list-style-image: url(images/br31/ul.png);
+    }
+
+    .abc{
+      position: absolute;
+      z-index: -1;
+      top: 3px;
+      left: 0px;
+    }
+
+    .def{
+      position: absolute;
+      z-index: -1;
+      top: 139.5px;
+      left: 0px;
+      border-top: 1px solid #e2d9d6;
+      border-bottom: 1px solid #000;
+    }
+
+    ul li.a1{
+      display: inline-block;
+      position: relative;
+      right:-300px;
+      top:-80px;
+      z-index: 2;
+      margin-right: 5px;
+    }
+
+
+
+
+
+  </style>
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+<div>
+  <img class="abc" src="images/br31_image/bg_header.gif" alt="헤더배경" />
+  <img class="def" src="images/br31/gnb_bar.png" alt="GNB바" />
+</div>
+
+
+
+
+
+
+
+
+
+
+<header class="header">
+
+  <!-- 로고 -->
+  <h1 class="logo">
+    <button type="button" class="btn_logo">메인로고</button>
+  </h1>
+  <!-- 아이콘 -->
+  <ul class="util-sns">
+    <li class="a1"><a href="#" title="페이스북"><img src="images/br31/icon_facebook.png" alt="페북아이콘"/></a></li>
+    <li class="a1"><a href="#" title="트위터"><img src="images/br31/icon_twitter.png" alt="트위터아이콘"/></a></li>
+    <li class="a1"><a href="#" title="블로그"><img src="images/br31/icon_blog.png" alt="블로그아이콘"/></a></li>
+    <li class="a1"><a href="#" title="인스타"><img src="images/br31/icon_instgram.png" alt="인스타아이콘"/></a></li>
+  </ul>
+  <!-- 센터 -->
+  <ul class="cs">
+    <li><a href="#">고객센터</a></li>
+    <li><a href="#">윤리신고센터</a></li>
+    <li><a href="#">CONTACT US</a></li>
+  </ul>
+
+  <div class="btn-wrap">
+    <button type="button" class="btn_search">검색</button>
+  </div>
+
+</header>
+
+
+
+
+
+
+
+<!-- login / GNB -->
+<nav>
+
+  <!-- 로그인 및 가입 -->
+  <ul>
+    <li><a href="#" title="로그인">LOGIN</a></li>
+    <li><a href="#" title="회원가입">JOIN</a></li>
+  </ul>
+
+  <!-- GNB  -->
+  <ul>
+    <li>
+      <a href="#">FLAVOR OF THE MONTH</a>
+        <ul>
+          <li>
+            <a href="#"><img src="images/br31/img_month_1607.png" alt="이달의 축제"/></a>
+          </li>
+        </ul>
+    </li>
+    <li>
+      <a href="#">MENU</a>
+        <ul>
+          <li><a href="#">아이스크림</a></li>
+          <li><a href="#">아이스크림케이크</a></li>
+          <li><a href="#">음료</a></li>
+          <li><a href="#">커피</a></li>
+          <li><a href="#">디저트</a></li>
+        </ul>
+
+    </li>
+    <li>
+      <a href="#">EVENT</a>
+        <ul>
+          <li><a href="#">진행중이벤트</a></li>
+          <li><a href="#">당첨자발표</a></li>
+        </ul>
+    </li>
+    <li>
+      <a href="#">STORE</a>
+        <ul>
+          <li><a href="#">매장찾기</a></li>
+          <li><a href="#">고객센터</a></li>
+        </ul>
+    </li>
+    <li>
+      <a href="#">ABOUT</a>
+        <ul>
+          <li><a href="#">공지사항</a></li>
+          <li><a href="#">보도자료</a></li>
+          <li><a href="#">채용정보</a></li>
+          <li><a href="#">점포개설문의</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </li>
+  </ul>
+</nav>
+
+<!-- 이달의 축제 - 상단  -->
+<div>
+  <h2><a href="http://www.baskinrobbins.co.kr/menu/fom.php"><img src="images/br31/img_flaovr_month_top.jpg" alt="이달의 축제-상단" /></a></h2>
+</div>
+
+<!-- 메인배너  -->
+<div>
+  <h2><a href="http://www.baskinrobbins.co.kr/event/view.php?flag=&seq=202"><img src="images/br31/img_main_banner_10.jpg" alt="메인배너-10" /></a></h2>
+</div>
+
+
+<section>
+
+  <!-- event -->
+  <div>
+
+    <div>
+      <img src="images/br31/h_event.png" alt="이벤트헤드"/>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <a href="#"><img src="images/br31/1454744084.png" alt="store-event01"/></a>
+          <a href="#"><img src="images/br31/stit_store.gif" alt="store"></a>
+          <span><a href="#">Summer Sonw CAFE BRIS</a></span>
+          <span><a href="#">상시진행</a></span>
+        </li>
+        <li>
+          <a href="#"><img src="images/br31/1467794853.png" alt="store-event02"/></a>
+          <a href="#"><img src="images/br31/stit_store.gif" alt="store"></a>
+          <span><a href="#">제휴 할인 카드 혜택 안내</a></span>
+          <span><a href="#">상시진행</a></span>
+        </li>
+        <li>
+          <a href="#"><img src="images/br31/1454744830.png" alt="store-event03"/></a>
+          <a href="#"><img src="images/br31/stit_store.gif" alt="store"></a>
+          <span><a href="#">해피오더에서만 만날 수 있는 그랜드, 해피박스!</a></span>
+          <span><a href="#">상시진행</a></span>
+        </li>
+        <li>
+          <a href="#"><img src="images/br31/1454745114.png" alt="store-event04"/></a>
+          <a href="#"><img src="images/br31/stit_store.gif" alt="store"></a>
+          <span><a href="#">31DAY! 패밀리를 하프갤런으로 사이즈 업!</a></span>
+          <span><a href="#">상시진행</a></span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+
+  <!-- menu -->
+  <div>
+    <div>
+      <img src="images/br31/h_menu.png" alt="메뉴헤드"/>
+    </div>
+
+
+    <div>
+      <ul>
+        <li>
+          <button type="button" class="btn_menu_list01">br_menu01</button>
+          <span><a href="#">ICECREAM</a></span>
+          <span><a href="#">프리미엄 아이스크림의 기준, 배스킨라빈스</a></span>
+        </li>
+        <li>
+          <button type="button" class="btn_menu_list02">br_menu02</button>
+          <span><a href="#">ICECREAM CAKE</a></span>
+          <span><a href="#">아이와 어른이 좋아하는 아이스크림을 하나의 케이크에서 모두 즐기세요!</a></span>
+        </li>
+        <li>
+          <button type="button" class="btn_menu_list03">br_menu03</button>
+          <span><a href="#">BAVERAGE</a></span>
+          <span><a href="#">아이스크림으로 즐기는 배스킨라빈스만의 음료!</a></span>
+        </li>
+        <li>
+          <button type="button" class="btn_menu_list04">br_menu04</button>
+          <span><a href="#">COFFEE</a></span>
+          <span><a href="#">배스킨라빈스만의 부드러운 촉감과 달콤한 풍미!</a></span>
+        </li>
+        <li>
+          <button type="button" class="btn_menu_list05">br_menu05</button>
+          <span><a href="#">GIFT</a></span>
+        </li>
+        <li>
+          <button type="button" class="btn_menu_list06">br_menu06</button>
+          <span><a href="#">DESSERT</a></span>
+          <span><a href="#">아이스크림을 더욱재미있게! 간편하게 즐기는 방법!</a></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <img src="images/br31_image/h_store.png" alt="스토어헤드"/>
+    </div>
+    <div>
+      <button type="button" class="btn_store">store</button>
+    </div>
+  </div>
+
+<!-- happyorder_delivery -->
+  <div>
+    <div>
+      <img src="images/br31_image/h_happyorder_delivery.png" alt="해피아더델리베리헤드"/>
+    </div>
+    <div>
+      <button type="button" class="btn_happyorder_delivery">happyorder_delivery</button>
+    </div>
+  </div>
+
+<!-- SNS -->
+  <div>
+    <div>
+      <img src="images/br31_image/h_sns.png" alt="SNS헤드"/>
+    </div>
+
+    <ul>
+      <li><button type="button" class="btn_fb_snslogo">SNS페북로고</button></li>
+      <li><button type="button" class="btn_twt_snslogo">SNS트위터로고</button></li>
+      <li><button type="button" class="btn_blog_snslogo">SNS블로그로고</button></li>
+      <li><button type="button" class="btn_ins_snslogo">SNS인스타로고</button></li>
+    </ul>
+
+    <ul>
+      <li><a href="#" title="sns_img01"><img src="images/br31_image/sns/sns01.jpg" alt="sns_이미지01" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img02"><img src="images/br31_image/sns/sns02.jpg" alt="sns_이미지02" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img03"><img src="images/br31_image/sns/sns03.jpg" alt="sns_이미지03" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img04"><img src="images/br31_image/sns/sns04.jpg" alt="sns_이미지04" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img05"><img src="images/br31_image/sns/sns05.jpg" alt="sns_이미지05" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img06"><img src="images/br31_image/sns/sns06.jpg" alt="sns_이미지06" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img07"><img src="images/br31_image/sns/sns07.jpg" alt="sns_이미지07" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img08"><img src="images/br31_image/sns/sns08.jpg" alt="sns_이미지08" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img09"><img src="images/br31_image/sns/sns09.jpg" alt="sns_이미지09" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img10"><img src="images/br31_image/sns/sns10.jpg" alt="sns_이미지10" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img11"><img src="images/br31_image/sns/sns11.jpg" alt="sns_이미지11" width="200px" height="200px"/></a></li>
+      <li><a href="#" title="sns_img12"><img src="images/br31_image/sns/sns12.jpg" alt="sns_이미지12" width="200px" height="200px"/></a></li>
+    </ul>
+  </div>
+
+</section>
+
+
+
+
+
+<footer>
+
+  <!-- 문의 및 이용약관 -->
+  <div>
+    <ul>
+      <li><a href="#">점포개설문의</a></li>
+      <li><a href="#">채용문의</a></li>
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">개인정보취급방침</a></li>
+      <li><a href="#">거래희망회사 사전등록</a></li>
+    </ul>
+  </div>
+
+  <!-- 푸터아이콘 -->
+  <div>
+    <ul>
+      <li><a href="#"><img src="images/br31/btn_happypoint.png" alt="해피포인트버튼"/></a></li>
+      <li><a href="#"><img src="images/br31/btn_celectory.gif" alt="샐랙토리버튼"/></a></li>
+      <li><a href="#"><img src="images/br31/btn_spc_story.png" alt="에스피씨스토리버튼"/></a></li>
+      <li><a href="#"><img src="images/br31/btn_norton.gif" alt="노튼버튼"/></a></li>
+      <li><a href="#"><img src="images/br31/btn_ccm.gif" alt="씨씨엠버튼"/></a></li>
+      <li><a href="#"><img src="images/br31/btn_ksa.png" alt="키사버튼"/></a></li>
+      <li>
+        <select>
+          <optgroup label="FAMILY SITE">
+          <option>배스킨 스쿨</option>
+          <option>SPC그룹사이트</option>
+          <option>SPC전자사보</option>
+          <option>BR코리아</option>
+          <option>해피포인트카드</option>
+          <option>파스쿠찌</option>
+          <option>샤니</option>
+          <option>파리바게트</option>
+          <option>던킨도너츠</option>
+          </optgroup>
+        </select>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 푸터로고 -->
+  <div>
+    <img src="images/br31/footer_logo.png" alt="배라푸터로고"/>
+  </div>
+
+  <!-- 주소 -->
+  <div>
+    <address>
+      <div>사업자 등록번호 : 303-81-09535</div>
+      <div>(주)비알코리아 대표이사 조상호</div>
+      <div>서울특별시 서초구 남부순환로 2620(양재동 11-149번지)</div>
+      <div>TEL : 080-555-3131</div>
+      <div> 개인정보관리책임자 : 최종영</div>
+      <div>전자우편주소 : mun@spc.co.kr</div>
+    </address>
+  </div>
+
+  <!-- 카피라이트 -->
+  <div>
+    <p>Copyright &copy; 2016 BRKOREA Company. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+<p>
+  <a href="http://validator.kldp.org/check?uri=referer"
+     onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+          src="http://validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+</p>
+
+
+</body>
+</html>
