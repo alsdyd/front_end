@@ -253,175 +253,207 @@ body{
 }
 
 .br-event-heading{
+  width: 87px;
+  height: 14px;
+  text-indent: -99999999999999999999999em;
+  background: url(../images/br31_image/h_event.png) no-repeat;
+  margin:100px auto 50px;
+}
+
+
+.event-list:after{
+  content: "";
   display: block;
+  clear: both;
+}
+
+
+.event-list-item{
+  width: 288px;
+  float: left;
+  margin-right: 16px;
+}
+
+.event-list-item.last{
+  margin-right: 0;
+}
+
+/***********************************************************
+다른 selector 쓰는 방법
+
+1. last-child
+
+.event-list-item{
+  float: left;
+  margin-right: 16px;
+}
+
+.event-list-item:last-child{
+  margin-right: 0;
+}
+
+
+2. first-child
+
+.event-list-item{
+  float: left;
+  margin-left: 16px;
+}
+
+.event-list-item:first-child {
+  margin-left: 0;
+}
+***********************************************************/
+
+.event-list-item .event-item-module .event-item-title img{
+  width:288px; /*가로길이만 정해주면 세로길이도 같이 조정됨*/
+}
+
+.event-item-module{
+
+}
+
+.event-item-text{
+  margin-top: 20px;
+}
+
+.event-item-text.ir-store-event{
+  width: 114px;
+  height: 22px;
+  text-indent: -99999em;
+  background: url(../images/br31_image/stit_store.gif) no-repeat;
+}
+
+.event-item-text.ir-happy-event{
+  width: 148px;
+  height: 22px;
+  text-indent: -99999em;
+  background: url(../images/br31_image/stit_happypoint.gif) no-repeat;
+}
+
+
+/*가상 selector 쓰는 방법 2 */
+
+.event-item-text:nth-child(3){
+  height: 54px;
+  font-size:17px;
+  color:#000;
+  line-height: 1.6;
+  word-break: break-all;
+  text-align: justify;
+}
+
+.event-item-text:nth-child(3) a{
+  color: #ff7c98; /* a 태그는 상속을 받지않기때문에 */
+}
+
+.event-item-text:nth-child(4) {
+  color: #948780;
+}
+
+
+.br-menu-heading{
+  width: 84px;
+  height: 14px;
+  text-indent: -99999999999999999999999em;
+  background: url(../images/br31_image/h_menu.png) no-repeat 0 177px;
+  padding: 150px 0 50px;
+  margin:0 auto;
+}
+
+.menu-list{
+  width: 1200px;
+  height: 1065px;
+  text-indent: -99999em;
+  background: url(../images/br31_image/img_menu_list.png) no-repeat;
+}
+
+.menu{
+  position: relative;
+}
+
+.bg-menu{
+  margin-top: 100px;
+  width: 100%;
+  height: 1157px;
+  text-indent: -99999em;
+  position: absolute;
+  background: url(../images/br31_image/bg_menu.jpg) no-repeat 50% 0;
+  top: 0;
+}
+
+.br-store, .br-happy{
+  width: 600px;
+  float: left;
+}
+
+.br-store-heading{
   width: 87px;
   height: 14px;
   text-indent: -99999em;
-  background: url(../images/br31_image/h_event.png) 50% 0;
+  background: url(../images/br31_image/h_store.png) no-repeat 0 95px;
+  padding: 95px 0 50px;
+  margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-.btn_menu_list01{
-  display: block;
-  width: 440px;
-  height: 440px;
-  background: url("../images/br31/img_menu_list_03.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_menu_list02{
-  display: block;
-  width: 444px;
-  height: 604px;
-  background: url("../images/br31/img_menu_list_03-03.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_menu_list03{
-  display: block;
-  width: 229px;
-  height: 402px;
-  background: url("../images/br31/img_menu_list_05.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_menu_list04{
-  display: block;
-  width: 373px;
-  height: 333px;
-  background: url("../images/br31/img_menu_list_08.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_menu_list05{
-  display: block;
-  width: 444px;
-  height: 461px;
-  background: url("../images/br31/img_menu_list_09.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_menu_list06{
-  display: block;
-  width: 403px;
-  height: 280px;
-  background: url("../images/br31/img_menu_list_10.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-
-.btn_fb_snslogo{
-  display: block;
-  width: 62px;
-  height: 62px;
-  background: url("../images/br31_image/sns/sns_facebook.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_twt_snslogo{
-  display: block;
-  width: 62px;
-  height: 62px;
-  background: url("../images/br31_image/sns/sns_twitter.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_blog_snslogo{
-  display: block;
-  width: 62px;
-  height: 62px;
-  background: url("../images/br31_image/sns/sns_blog.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-.btn_ins_snslogo{
-  display: block;
-  width: 62px;
-  height: 62px;
-  background: url("../images/br31_image/sns/sns_instagram.png") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
-}
-
-.btn_store{
+.br-store-link{
   display: block;
   width: 600px;
   height: 260px;
-  background: url("../images/br31_image/img_store.jpg") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
+  text-indent: -9999em;
+  background: url(../images/br31_image/img_store.jpg) no-repeat;
 }
-.btn_happyorder_delivery{
+
+
+
+.br-happy-heading{
+  width: 244px;
+  height: 14px;
+  text-indent: -99999em;
+  background: url(../images/br31_image/h_happyorder_delivery.png) no-repeat 0 95px;
+  padding: 95px 0 50px;
+  margin: 0 auto;
+}
+
+.br-happy-link{
   display: block;
   width: 600px;
   height: 260px;
-  background: url("../images/br31_image/img_happyorder_delivery.jpg") no-repeat;
-  text-indent: -99999em;
-  border: 0px;
-  cursor: pointer;
+  text-indent: -9999em;
+  background: url(../images/br31_image/img_happyorder_delivery.jpg) no-repeat;
+}
+
+
+
+.snsbox-heading{
+  width:36px;
+  height: 13px;
+  text-indent: -9999em;
+  background: url(../images/br31_image/h_sns.png) no-repeat 0 95px;
+  padding: 95px 0 50px;
+  margin: 0 auto;
 }
 
 
 
 
 
-ul{
-  list-style-image: url(../images/br31/ul.png);
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content:"";
+  display: block;
+  clear: both;
 }
 
-.abc{
-  position: absolute;
-  z-index: -1;
-  top: 3px;
-  left: 0px;
-}
-
-.def{
-  position: absolute;
-  z-index: -1;
-  top: 139.5px;
-  left: -3px;
-  border-top: 1px solid #e2d9d6;
-  border-bottom: 1px solid #000;
-}
-
-ul li.a1{
-  display: inline-block;
-  position: relative;
-  right:-300px;
-  top:-80px;
-  z-index: 2;
-  margin-right: 5px;
-}
-
-
-*/
