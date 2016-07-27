@@ -435,14 +435,95 @@ body{
 }
 
 
+.snsbox-list{
+  width: 328px;
+  margin: 0 auto 35px;
+}
+
+
+.snsbox-list-icon{
+  float: left;
+  margin: 0 10px;
+}
 
 
 
+.insta-list-item{
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.insta-list-item img{
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+.insta-list-item a{
+  display: inline-block;
+}
 
 
 
+.footer{
+  border-top: 1px solid #feaf2b;
+  margin-top: 150px;
+  padding-bottom: 60px;
+}
 
 
+.terms-list-item{
+  float: left;
+  width: 20%;
+  text-align: center; /* text-align 은 text 뿐만 아니라 인라인 요소에도 적용이 된다 ex) a 태그 / img 태그 */
+  line-height: 77px;
+}
+
+
+.aliiance-list{
+  margin-top: 22px;
+  text-align: center;
+}
+
+.aliiance-list-item{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+
+.footer-logo{
+  margin: 48px 0 35px;
+  text-align: center;
+}
+
+.address{
+  text-align: center;
+}
+
+.address-item{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.address-item:last-child{
+  padding-right: 0;
+}
+
+.top-line{
+
+}
+
+.bottom-line{
+  margin-top: 8px;
+}
+
+
+
+.copyright{
+  text-align: center;
+  margin-top: 12px;
+}
 
 
 
@@ -456,4 +537,3 @@ body{
   display: block;
   clear: both;
 }
-
