@@ -425,6 +425,162 @@ body{
 
 
 
+.container05{
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    float: left;
+}
+
+.con05_page_list:first-child{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/s5_bg.png) no-repeat;
+}
+
+.con05_look_page_btn{
+    display: block;
+    text-indent: -99999em;
+    width: 314px;
+    height: 82px;
+    background: url(../images/s5_look_btn.png) no-repeat;
+    position: absolute;
+    top: 105px;
+    left: 41%;
+}
+
+.con05_look_page_btn:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 314px;
+    height: 82px;
+    background: url(../images/s5_look_btn_hover.png) no-repeat;
+    position: absolute;
+    top: 105px;
+    left: 42%;
+}
+
+.con05_iphone{
+    width: 665px;
+    height: 783px;
+    background: url(../images/s5_iphone_hend.png) no-repeat;
+    position: absolute;
+    top: 297px;
+    left: 457px;
+}
+
+
+.con05_title{
+    text-indent: -99999em;
+    width: 484px;
+    height: 239px;
+    background: url(../images/s5_title.png) no-repeat;
+    position: absolute;
+    top: 361px;
+    right: 356px;
+}
+
+.con05_download_btn{
+    display: block;
+    text-indent: -99999em;
+    width: 478px;
+    height: 237px;
+    background: url(../images/s5_app_store_btn.png) no-repeat;
+    position: absolute;
+    right: 405px;
+    bottom: 214px;
+}
+
+
+.con05_page_list:first-child{
+    /*display: none;*/
+}
+
+.con05_page_list:last-child{
+    display: none;
+}
+
+
+.con05_page_list:nth-child(2){
+    width: 100%;
+    height: 1080px;
+    background: url(../images/s5_2_bg.png) no-repeat;
+}
+
+
+
+.con05_2_download_page_btn{
+    display: block;
+    text-indent: -99999em;
+    width: 314px;
+    height: 82px;
+    background: url(../images/s5_2_app_download_btn.png) no-repeat;
+    position: absolute;
+    top: 105px;
+    right: 42%;
+}
+
+.con05_2_download_page_btn:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 314px;
+    height: 82px;
+    background: url(../images/s5_2_app_download_btn_hover.png) no-repeat;
+    position: absolute;
+    top: 105px;
+    right: 42%;
+}
+
+.con05_2_iphone{
+    width: 415px;
+    height: 689px;
+    background: url(../images/s5_2_iphone.png) no-repeat;
+    position: absolute;
+    left: 528px;
+    bottom: 94px;
+}
+
+.con05_2_iphone_screen{
+    width: 259px;
+    height: 459px;
+    background: url(../images/s5_2_app_splesh.png) no-repeat;
+    position: absolute;
+    top: 71px;
+    left: 9px;
+}
+
+.con05_2_menu{
+    position: absolute;
+    right: 581px;
+    bottom: 257px;
+}
+
+.con05_2_menu_list{
+    text-indent: -99999em;
+    height: 73px;
+    margin-bottom: 63px;
+}
+
+.con05_2_menu_list:first-child{
+    width: 275px;
+    background: url(../images/s5_2_menu.png) no-repeat 0 0;
+}
+
+.con05_2_menu_list:nth-child(2){
+    width: 283px;
+    background: url(../images/s5_2_menu.png) no-repeat 0 -136px;
+}
+
+.con05_2_menu_list:nth-child(3){
+    width: 281px;
+    background: url(../images/s5_2_menu.png) no-repeat 0 -272px;
+}
+
+.con05_2_menu_list:last-child{
+    width: 226px;
+    background: url(../images/s5_2_menu.png) no-repeat 0 -408px;
+    margin-bottom: 0;
+}
 
 
 
@@ -435,9 +591,57 @@ body{
 
 
 
+.container06{
+    width: 100%;
+    height: 4968px;
+    background: url(../images/s6_bg.png) no-repeat;
+    position: relative;
+    float: left;
+}
+
+.con06_title{
+    text-indent: -99999em;
+    width: 639px;
+    height: 167px;
+    background: url(../images/s6_title_text_img.png) no-repeat;
+    position: absolute;
+    top: 437px;
+    right: 447px;
+}
 
 
+.con06_polygon1{
+    text-indent: -99999em;
+    width: 630px;
+    height: 814px;
+    background: url(../images/s6_polygon01.png) no-repeat;
+    position: absolute;
+    top: 94px;
+}
 
+.con06_polygon2{
+    text-indent: -99999em;
+    width: 705px;
+    height: 814px;
+    background: url(../images/s6_polygon02.png) no-repeat;
+    position: absolute;
+    top: 732px;
+    left: 296px;
+}
+
+.con06_fla_img01{
+    text-indent: -99999em;
+    width: 507px;
+    height: 433px;
+    background: url(../images/s6_fla_tooth.png) no-repeat;
+    position: absolute;
+    top: 1139px;
+    right: 150px;
+}
+
+.con06_bg2{
+    
+}
 
 
 
