@@ -13,43 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9c9243-faf6-427c-b2a8-ac008fb5a628" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/images/fds12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/00_sample.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_01_varidable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_02_operator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_03_condition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_04_loop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_07-3_function_practice_01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_08_object.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_10_beginning_jquery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_11-0_find_node_jquery_sample.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_11-1_find_node_by_id.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_11-2_find_node_by_tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth/css/about_tooth.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth/html/about_tooth.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alba/css/alba.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alba/html/alba.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassbeats/css/cassbeats.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cassbeats/html/cassbeats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/font_test/font_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alba/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssgpay/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssgpay/css/ssgpay.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssgpay/html/ssgpay.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/css/sunmoon.css" />
-      <change type="DELETED" beforePath="E:\7월\07.28\front_end\class\webpage\css\dothome-back_up.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\7월\07.28\front_end\class\webpage\dothome-back_up.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\7월\07.28\front_end\kyowonedu\kyowonedu.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/css/br31.css" afterPath="$PROJECT_DIR$/class/webpage/css/br31.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/css/dothome.css" afterPath="$PROJECT_DIR$/class/webpage/css/dothome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/dothome.html" afterPath="$PROJECT_DIR$/class/webpage/dothome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\7월\07.28\front_end\class\webpage\p1.html" afterPath="$PROJECT_DIR$/class/webpage/sunmoon.html" />
     </list>
     <ignored path="front_end.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,24 +33,14 @@
     <favorites_list name="front_end" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4147795">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
           <file leaf-file-name="about_tooth.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27722773">
+                <state vertical-scroll-proportion="4.4978023">
                   <caret line="404" column="26" selection-start-line="404" selection-start-column="26" selection-end-line="404" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="alba.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/alba/css/alba.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="499" column="0" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -99,11 +53,10 @@
           <file leaf-file-name="about_tooth.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5391601">
-                  <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+                <state vertical-scroll-proportion="0.4739229">
+                  <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
                   <folding>
                     <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -251,8 +204,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,38 +235,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front_end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front_end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front_end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front_end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -661,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.291667">
-          <caret line="11" column="25" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cassbeats/html/cassbeats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31765833">
@@ -881,32 +795,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
+    <entry file="file://$PROJECT_DIR$/alba/css/alba.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5391601">
-          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.2901099">
+          <caret line="499" column="0" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alba/css/alba.css">
+    <entry file="file://$PROJECT_DIR$/alba/html/alba.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="499" column="0" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.02154195">
+          <caret line="11" column="25" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27722773">
+        <state vertical-scroll-proportion="4.4978023">
           <caret line="404" column="26" selection-start-line="404" selection-start-column="26" selection-end-line="404" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4739229">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
