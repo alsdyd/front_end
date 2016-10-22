@@ -1,0 +1,90 @@
+.wrap{
+    height: 1184px;
+    background: url(../images/bg_sub.jpg) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.container-box{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************진*입*금*지********************/
+/*****************건*들*지*마*시*오*****************/
+
+
+
+
+
+.blind{
+    display: none;
+}
+
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+
+  </style>
+
+  <script>
+
+//    var first = window.prompt('첫번째 값을 입력하시오.');
+//    var second = window.prompt('첫번째 값을 입력하시오.');
+//    var operaator = window.prompt('연산자를 입력하시오.');
+
+
+
+//    var first = 10;
+//    var second = 20;
+//    var operator = '+';
+
+    function cal(){
+
+      var first = document.getElementById('first').value;
+      var second = document.getElementById('second').value;
+      var operator = document.getElementById('operator').value;
+      var result = 0;
+
+      first = parseInt(first);
+      second = parseInt(second);
+
+      if ( operator == '+' || operator == '1' ) {
+        result = first + second;
+      } else if ( operator == '-'  || operator == '2'){
+        result = first - second;
+      } else if ( operator == '*'  || operator == '3') {
+        result = first * second;
+      } else {
+        result = first / second;
+      }
+
+      document.write('<p>');
+      document.write(result);
+      document.write('</p>');
+
+
+      var node = document.createTextNode(result);
+      var dov = document.createElement('div');
+      div.appendChild(node);
+      var element = document.getElementById("body");
+      element.appendChild(div);
+    }
+
+  </script>
+
+
+  <script>
+    function cal2(){
+      var a2 = document.getElementById('a2').value;
+      var a3 = 0;
+
+      if ( a2 == '1' ) {
+        a3 = '냉장고 당첨';
+      } else if ( a2 == '2' ) {
+        a3 = '세탁기 당첨';
+      } else if ( a2 == '3' ) {
+        a3 = 'TV당첨';
+      } else {
+        a3 = '꽝';
+      }
+
+      document.write('<p>');
+      document.write(a3);
+      document.write('</p>')
+
+
+    }
+
+  </script>
+
+
+  <script>
+    function cal3(){
+      var b2 = document.getElementById('b2').value;
+      var b3 = 0;
+
+      if ( b2 < '101' && b2 >= '90' ) {
+        b3 = 'A';
+      } else if ( b2 < '90' && b2 >= '80' ) {
+        b3 = 'B';
+      } else if ( b2 < '80' && b2 >= '70' ) {
+        b3 = 'C';
+      } else if ( b2 < '70' && b2 >= '59' ) {
+        b3 = 'D';
+      } else if ( b2 < '60' ) {
+        b3 = 'F';
+      } else {
+        document.write('다시 입력하시오');
+      }
+
+      document.write('<p>');
+      document.write(b3);
+      document.write('</p>');
+
+    }
+
+
+  </script>
+</head>
+<body id="body">
+
+  <div>
+    <label>첫번째 값 : </label>
+    <input type="text" id="first" />
+  </div>
+
+  <div>
+    <label>두번째 값 : </label>
+    <input type="text" id="second"/>
+  </div>
+
+  <div>
+    <label>계산종류(+,-,*,/) : </label>
+    <input type="text" id="operator"/>
+  </div>
+
+  <div>
+    <button type="button" onclick="cal();">계산</button>
+  </div>
+
+
+
+<div>
+  <label>입력값 : </label>
+  <input type="text" id="a2"/>
+</div>
+
+  <div>
+    <button type="button" onclick="cal2();">당첨확인</button>
+  </div>
+
+
+  <div>
+    <label>점수로 학점보기 - 점수를 입력하세요 : </label>
+    <input type="text" id="b2"/>
+  </div>
+
+  <div>
+    <button type="button" onclick="cal3();">학점확인</button>
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    .btl01{
+      border: 0px ;
+      padding: 20px;
+      font-size: 100px;
+      line-height: 0.7;
+    }
+
+    .btl01:hover{
+      background-color: #01aeb2;
+      color: #fff;
+    }
+
+
+  </style>
+
+  <script>
+    var b=0;
+
+    for(var a=1; a<=100; a++){
+      b = b+a;
+    }
+
+
+    document.write('<p>');
+    document.write('1부터 100까지의 합 : ');
+    document.write(b);
+    document.write('</p>');
+
+
+  </script>
+
+  <script>
+
+
+    function f1(){
+      var c = document.getElementById('plus').value;
+      var result = 0;
+
+      for(var i=0; i<=c; i++){
+        result = result + i;
+      }
+
+      alert('입력한 숫자까지의 합 : '+ result);
+    }
+
+
+  </script>
+
+
+
+
+
+  <script>
+
+
+    function f2(){
+      var d = document.getElementById('gugudan').value;
+      var result2 = 0;
+
+      for(var j=0; j<=d; j++){
+
+        result2 = result2 + j;
+      }
+
+      alert('입력한 숫자까지의 합 : '+ result2);
+    }
+
+  </script>
+
+
+
+
+  <script>
+
+
+    function hol2(){
+    var g1 = document.getElementById('holzzak').value;
+    var g2 = 0;
+
+    if ( g1 % 2 == 0 ) {
+      g2 = '짝수';
+    } else {
+      g2 = '홀수';
+    }
+
+      document.write('<p>');
+      document.write(g2);
+      document.write('</p>');
+
+    }
+
+
+
+
+
+
+
+  </script>
+
+
+
+</head>
+<body>
+
+<label>입력값 : </label>
+<input type="text" id="plus" />
+</div>
+
+<div>
+  <button type="button" class="btl01" onclick="f1();">결과값</button>
+</div>
+
+
+<label>입력값 : </label>
+<input type="text" id="gugudan" />
+</div>
+
+<div>
+  <button type="button" class="btl02" onclick="f1();">결과값</button>
+</div>
+
+</br>
+<p>---------------</p>
+</br>
+
+<div>
+  <button type="button" class="btl01" onclick="f1();">결과값</button>
+</div>
+
+<div>
+  <div>
+    <label>홀짝 </label>
+    <input type="text" id="first01" />
+  </div>
+
+</div>
+
+
+</body>
+</html>

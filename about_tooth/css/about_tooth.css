@@ -1,0 +1,465 @@
+.inner{
+    width: 661px;
+    margin: 0 auto;
+}
+body{
+    background: #ff7c98;
+}
+.header{
+}
+.nav{
+    position: fixed;
+    top: 24px;
+    left: 33%;
+    z-index: 100;
+}
+.depth1{
+    float: left;
+}
+.depth1:first-child>a{
+    width: 68px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu.png) no-repeat;
+    margin-right: 52px;
+}
+.depth1:nth-child(2)>a{
+    width: 86px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu.png) no-repeat -139px;
+    margin-right: 52px;
+}
+.depth1:nth-child(3)>a{
+    width: 82px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu.png) no-repeat -288px;
+    margin-right: 52px;
+}
+.depth1:nth-child(4)>a{
+    width: 123px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu.png) no-repeat -416px;
+    margin-right: 52px;
+}
+.depth1:last-child>a{
+    width: 72px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu.png) no-repeat -589px;
+}
+.depth1:first-child>a:hover{
+    width: 68px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu_hover.png) no-repeat;
+    margin-right: 52px;
+}
+.depth1:nth-child(2)>a:hover{
+    width: 86px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu_hover.png) no-repeat -139px;
+    margin-right: 52px;
+}
+.depth1:nth-child(3)>a:hover{
+    width: 82px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu_hover.png) no-repeat -288px;
+    margin-right: 52px;
+}
+.depth1:nth-child(4)>a:hover{
+    width: 123px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu_hover.png) no-repeat -416px;
+    margin-right: 52px;
+}
+.depth1:last-child>a:hover{
+    width: 72px;
+    height: 9px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_menu_hover.png) no-repeat -589px;
+}
+.main_icon{
+    position: fixed;
+    top: 24px;
+    right: 55px;
+}
+.icon{
+    float: left;
+}
+.icon:first-child>a{
+    width: 20px;
+    height: 19px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_icon.png) no-repeat;
+}
+.icon:nth-child(2)>a{
+    width: 19px;
+    height: 19px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_icon.png) no-repeat -32px;
+    margin: 0 12px;
+}
+.icon:last-child>a{
+    width: 20px;
+    height: 19px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/up_icon.png) no-repeat -63px;
+}
+.big_img01{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/main_img01.png) no-repeat;
+}
+.main_logo{
+    width: 435px;
+    height: 271px;
+    background: url(../images/main_logo.png) no-repeat;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -217px;
+}
+.main_logo:hover{
+    width: 435px;
+    height: 271px;
+    background: url(../images/up_logo2.png) no-repeat;
+    position: relative;
+    top: 393px;
+}
+.main_logo:active{
+    width: 1850px;
+    height: 1080px;
+    background: url(../images/main_img01-1.gif) no-repeat;
+    position: absolute;
+    top: -7px;
+    left: 223px;
+}
+.container02{
+}
+.big_img02{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/main_img02.png) no-repeat;
+}
+.text01{
+    width: 1000px;
+    height: 108px;
+    position: relative;
+    top: 315px;
+    left: 380px;
+}
+.text02{
+    width: 1000px;
+    height: 107px;
+    position: relative;
+    top: 395px;
+    left: 380px;
+}
+.text03{
+    width: 1000px;
+    height: 237px;
+    position: relative;
+    top: 495px;
+    left: 380px;
+}
+.text01:hover{
+    width: 1313px;
+    height: 108px;
+    background: url(../images/text01.png) no-repeat;
+    position: relative;
+    top: 315px;
+    left: 380px;
+}
+.text02:hover{
+    width: 1185px;
+    height: 107px;
+    background: url(../images/text02.png) no-repeat;
+    position: relative;
+    top: 395px;
+    left: 380px;
+}
+.text03:hover{
+    width: 1087px;
+    height: 237px;
+    background: url(../images/text03.png) no-repeat;
+    position: relative;
+    top: 495px;
+    left: 380px;
+}
+.big_img03{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/main_img03_pla.png) no-repeat;
+}
+.teeth_img{
+    width: 334px;
+    height: 543px;
+    background: url(../images/pla.png) no-repeat;
+    position: relative;
+    top: 256px;
+    left: 442px;
+    float: left;
+}
+.plalan{
+    width: 604px;
+    height: 404px;
+    background: url(../images/plalan.png) no-repeat;
+    position: relative;
+    top: 325px;
+    left: 1000px;
+}
+.oo1{
+    width: 30px;
+    height: 10px;
+    background: url(../images/oo1.png) no-repeat;
+    position: relative;
+    top: 615px;
+    left: 50%;
+    margin-right: 5px;
+    
+}
+.big_img04{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/main_img04.png) no-repeat;
+    position: relative;
+    z-index: -100;
+}
+.gra{
+    width: 1636px;
+    height: 1080px;
+    background: url(../images/gra01.png) no-repeat ;
+    float: left;
+}
+.productimg01{
+    background: url(../images/productimg.png) no-repeat;
+    position: relative;
+    left: 62px;
+    top: 376px;
+    width: 753px;
+    height: 597px;
+}
+.productimg02{
+    width: 1115px;
+    height: 1080px;
+    background: url(../images/productimg02.png) no-repeat;
+    position: relative;
+    left: 788px;
+    top: -597px;
+}
+.pai50s{
+    width: 486px;
+    height: 133px;
+    background: url(../images/PAI-50S.png) no-repeat;
+    position: absolute;
+    left: 696px;
+    top: 334px;
+}
+.siulation>a{
+    width: 361px;
+    height: 27px;
+    background: url(../images/siulation_btn.png) no-repeat;
+    position: absolute;
+    top: 514px;
+    left: 696px;
+}
+.container05{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/main_img04.png) no-repeat;
+    position: relative;
+}
+.iphone_app>a{
+    display: block;
+    background: url(../images/iphone01.png) no-repeat;
+    position: absolute;
+    left: 528px;
+    top: 297px;
+    width: 415px;
+    height: 650px;
+    z-index: 100;
+}
+.iphone_app>a:hover{
+    display: block;
+    background: url(../images/iphone.png) no-repeat;
+    position: absolute;
+    left: 528px;
+    top: 297px;
+    width: 415px;
+    height: 650px;
+    z-index: 100;
+}
+.app01{
+    display: block;
+    width: 283px;
+    height: 73px;
+    text-indent: -9999em;
+    background: url(../images/phone_s.png) no-repeat;
+    position: relative;
+    left: 1040px;
+    top: 325px;
+}
+.app02{
+    display: block;
+    width: 283px;
+    height: 73px;
+    text-indent: -9999em;
+    background: url(../images/phone_s.png) no-repeat 0 -136px;
+    position: relative;
+    left: 1040px;
+    top: 388px;
+}
+.app03{
+    display: block;
+    width: 283px;
+    height: 73px;
+    text-indent: -9999em;
+    background: url(../images/phone_s.png) no-repeat 0 -272px;
+    position: relative;
+    left: 1040px;
+    top: 451px;
+}
+.app04{
+    display: block;
+    width: 283px;
+    height: 73px;
+    text-indent: -9999em;
+    background: url(../images/phone_s.png) no-repeat 0 -272px;
+    position: relative;
+    left: 1040px;
+    top: 514px;
+}
+
+
+.app01:hover{
+    display: block;
+    width: 560px;
+    height: 105px;
+    text-indent: -9999em;
+    background: url(../images/phone_l.png) no-repeat;
+    position: relative;
+    left: 1020px;
+    top: 305px;
+}
+
+.app02:hover{
+    display: block;
+    width: 560px;
+    height: 105px;
+    text-indent: -9999em;
+    background: url(../images/phone_l.png) no-repeat 0 -136px;
+    position: relative;
+    left: 1020px;
+    top: 368px;
+}
+
+.app03:hover{
+    display: block;
+    width: 560px;
+    height: 105px;
+    text-indent: -9999em;
+    background: url(../images/phone_l.png) no-repeat 0 -272px;
+    position: relative;
+    left: 1020px;
+    top: 431px;
+}
+
+.app04:hover{
+    display: block;
+    width: 560px;
+    height: 105px;
+    text-indent: -9999em;
+    background: url(../images/phone_l.png) no-repeat 0 -408px;
+    position: relative;
+    left: 1020px;
+    top: 494px;
+}
+
+
+
+.big_img05{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/main_img05.png) no-repeat;
+    position: relative;
+}
+
+.productimg3{
+    width: 1485px;
+    height: 665px;
+    background: url(../images/productimg3.png) no-repeat;
+    position: absolute;
+    top: 327px;
+    left: 210px;
+}
+
+.productimg3:active{
+    width: 1485px;
+    height: 665px;
+    background: url(../images/productimg4.png) no-repeat;
+    position: absolute;
+    top: 327px;
+    left: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************진*입*금*지********************/
+/*****************건*들*지*마*시*오*****************/
+
+.wdt260{
+    width: 260px;
+}
+
+.pst-rela{
+    position: relative;
+}
+
+.blind{
+    display: none;
+}
+
+.left-float{
+    float: left;
+}
+
+.right-float{
+    float: right;
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}

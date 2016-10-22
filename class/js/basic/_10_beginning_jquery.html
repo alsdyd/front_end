@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <!-- 로컬에서 사용하는 방법 -->
+  <script src="../lib/jquery-3.1.1.js">
+
+
+
+
+  </script>
+
+
+  <!-- CDN -->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+
+
+  <script>
+    //방법1
+    jQuery(document).ready(function(){
+
+    });
+
+    //방법2
+    jQuery(function(){
+
+    });
+
+    //방법3
+    $(document).ready(function(){
+
+    });
+
+    //방법4
+    $(function(){
+
+    });
+
+
+    // 이미지 로딩
+
+    $(document).ready(function(){
+
+      console.log($('.wrap').width() );
+
+      console.log($('.image').width() );
+    })
+
+
+
+
+
+  </script>
+
+
+</head>
+<body>
+
+  <div class="wrap">Hello</div>
+
+  <img src="../images/fds12.png" class="image" />
+
+
+
+
+</body>
+</html>

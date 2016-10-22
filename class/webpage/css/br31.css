@@ -182,7 +182,7 @@ body{
   margin-top: 42px;
   position: absolute;
   z-index: 10;
-  display: none;
+  /*display: none;*/
 }
 
 .gnb-depth2.img{
