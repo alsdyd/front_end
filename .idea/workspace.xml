@@ -12,9 +12,7 @@
     <bookmark url="file://$PROJECT_DIR$/class/webpage/br31.html" line="141" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9c9243-faf6-427c-b2a8-ac008fb5a628" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-    </list>
+    <list default="true" id="2a9c9243-faf6-427c-b2a8-ac008fb5a628" name="Default" comment="" />
     <ignored path="front_end.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -403,7 +401,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115911484" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
