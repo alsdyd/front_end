@@ -70,6 +70,43 @@ body{
     background: url(../images/s1_st_menu.png) no-repeat -643px 0;
 }
 
+.depth1_list:first-child>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 68px;
+    height: 9px;
+    background: url(../images/s1_st_menu_hover.png) no-repeat 0 0;
+}
+.depth1_list:nth-child(2)>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 86px;
+    height: 9px;
+    background: url(../images/s1_st_menu_hover.png) no-repeat -139px 0;
+}
+.depth1_list:nth-child(3)>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 82px;
+    height: 9px;
+    background: url(../images/s1_st_menu_hover.png) no-repeat -296px 0;
+}
+.depth1_list:nth-child(4)>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 123px;
+    height: 9px;
+    background: url(../images/s1_st_menu_hover.png) no-repeat -449px 0;
+}
+.depth1_list:last-child>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 107px;
+    height: 9px;
+    background: url(../images/s1_st_menu_hover.png) no-repeat -643px 0;
+}
+
+
 .sns_icon{
     position: fixed;
     top: 18px;
@@ -105,8 +142,27 @@ body{
     background: url(../images/s1_st_icon.png) no-repeat -63px 0;
 }
 
-
-
+.sns_icon_list:first-child>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 20px;
+    height: 19px;
+    background: url(../images/s1_st_icon_hover.png) no-repeat 0 0;
+}
+.sns_icon_list:nth-child(2)>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 20px;
+    height: 19px;
+    background: url(../images/s1_st_icon_hover.png) no-repeat -32px 0;
+}
+.sns_icon_list:last-child>a:hover{
+    display: block;
+    text-indent: -99999em;
+    width: 20px;
+    height: 19px;
+    background: url(../images/s1_st_icon_hover.png) no-repeat -63px 0;
+}
 
 
 
@@ -640,8 +696,218 @@ body{
 }
 
 .con06_bg2{
-    
+    width: 100%;
+    height: 4968px;
+    background: url(../images/s6_bg02.png) no-repeat;
+    position: absolute;
 }
+
+.con06_promotion01_icon{
+    width: 109px;
+    height: 174px;
+    background: url(../images/s6_promotion01_icon.png) no-repeat;
+    position: absolute;
+    top: 1708px;
+    left: 371px;
+}
+
+.con06_promotion01_title{
+    display: block;
+    text-indent: -99999em;
+    width: 565px;
+    height: 52px;
+    background: url(../images/s6_promotion01_title.png) no-repeat;
+    position: absolute;
+    top: 2005px;
+    left: 150px;
+}
+
+.con06_promotion01_text{
+    display: block;
+    text-indent: -99999em;
+    width: 894px;
+    height: 92px;
+    background: url(../images/s6_promotion01_text.png) no-repeat;
+    position: absolute;
+    top: 2136px;
+    left: 171px;
+}
+
+.con06_bg3{
+    width: 100%;
+    height: 4968px;
+    background: url(../images/s6_bg03.png) no-repeat;
+    position: absolute;
+}
+
+.con06_promotion_list:first-child{
+    text-indent: -99999em;
+    width: 538px;
+    height: 538px;
+    background: url(../images/s6_promotion02.png) no-repeat;
+    position: absolute;
+    left: 131px;
+    bottom: 1461px;
+}
+
+.con06_promotion_list:nth-child(2){
+    text-indent: -99999em;
+    width: 538px;
+    height: 538px;
+    background: url(../images/s6_promotion03.png) no-repeat;
+    position: absolute;
+    right: 689px;
+    bottom: 1461px;
+}
+
+.con06_promotion_list:last-child{
+    text-indent: -99999em;
+    width: 538px;
+    height: 538px;
+    background: url(../images/s6_promotion04.png) no-repeat;
+    position: absolute;
+    right: 128px;
+    bottom: 1461px;
+}
+
+.con06_promotion_list:first-child:hover{
+    text-indent: -99999em;
+    width: 538px;
+    height: 538px;
+    background: url(../images/s6_promotion02_hover.png) no-repeat;
+    position: absolute;
+    left: 131px;
+    bottom: 1461px;
+}
+.con06_promotion_list:nth-child(2):hover{
+    text-indent: -99999em;
+    width: 538px;
+    height: 538px;
+    background: url(../images/s6_promotion03_hover.png) no-repeat;
+    position: absolute;
+    right: 689px;
+    bottom: 1461px;
+}
+.con06_promotion_list:last-child:hover{
+    text-indent: -99999em;
+    width: 538px;
+    height: 538px;
+    background: url(../images/s6_promotion04_hover.png) no-repeat;
+    position: absolute;
+    right: 128px;
+    bottom: 1461px;
+}
+
+.con06_buy_text{
+    text-indent: -99999em;
+    width: 615px;
+    height: 94px;
+    background: url(../images/s6_buy_text.png) no-repeat;
+    position: absolute;
+    left: 652px;
+    bottom: 990px;
+}
+
+.con06_buy_product_img{
+    text-indent: -99999em;
+    width: 122px;
+    height: 261px;
+    background: url(../images/s6_buy_product.png) no-repeat;
+    position: absolute;
+    left: 898px;
+    bottom: 610px;
+}
+
+.con06_buy_product_img:hover{
+    text-indent: -99999em;
+    width: 122px;
+    height: 261px;
+    background: url(../images/s6_buy_product_hover.png) no-repeat;
+    position: absolute;
+    left: 898px;
+    bottom: 610px;
+}
+
+.con06_buy_btn{
+    text-indent: -99999em;
+    width: 338px;
+    height: 96px;
+    background: url(../images/s6_buy_btn.png) no-repeat;
+    position: absolute;
+    left: 787px;
+    bottom: 427px;
+}
+
+.con06_buy_btn:hover {
+    text-indent: -99999em;
+    width: 338px;
+    height: 96px;
+    background: url(../images/s6_buy_btn_hover.png) no-repeat;
+    position: absolute;
+    left: 787px;
+    bottom: 427px;
+}
+
+.con06_award{
+    text-indent: -99999em;
+    width: 294px;
+    height: 132px;
+    background: url(../images/s6_award.png) no-repeat;
+    position: absolute;
+    left: 812px;
+    bottom: 45px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 384px;
+    background: url(../images/footer_bg.png) no-repeat;
+    position: relative;
+    float: left;
+    color: #fff;
+}
+
+.ft_access_terms_list>a{
+    color: #fff;
+}
+
+.ft_content_list:first-child>.ft_content_list_title{
+    text-indent: -99999em;
+    width: 156px;
+    height: 22px;
+    background: url(../images/footer_content_title.png) no-repeat 0 0;
+
+}
+
+.ft_content_list:nth-child(2)>.ft_content_list_title{
+    text-indent: -99999em;
+    width: 129px;
+    height: 22px;
+    background: url(../images/footer_content_title.png) no-repeat -457px 0;
+
+}
+
+.ft_content_list:last-child>.ft_content_list_title{
+    text-indent: -99999em;
+    width: 187px;
+    height: 22px;
+    background: url(../images/footer_content_title.png) no-repeat -910px 0;
+
+}
+
+
+
+
+
+
+
 
 
 

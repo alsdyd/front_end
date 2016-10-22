@@ -13,19 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9c9243-faf6-427c-b2a8-ac008fb5a628" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_app_condition.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_app_download_btn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_app_download_btn_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_app_main.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_app_schedule.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_app_select_color_mode.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_app_splesh.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_menu.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\user17\Documents\front_end\about_tooth_02\images\s5_menu_hover.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_tooth_02/images/s5_bg.png" afterPath="$PROJECT_DIR$/about_tooth_02/images/s5_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_tooth_02/images/s6_promotion02_hover.png" afterPath="$PROJECT_DIR$/about_tooth_02/images/s6_promotion02_hover.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_tooth_02/css/about_tooth.css" afterPath="$PROJECT_DIR$/about_tooth_02/css/about_tooth.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_tooth_02/html/about_tooth.html" afterPath="$PROJECT_DIR$/about_tooth_02/html/about_tooth.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,15 +36,27 @@
     <favorites_list name="front_end" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40047675">
+    <splitter split-orientation="horizontal" split-proportion="0.4453125">
       <split-first>
         <leaf>
           <file leaf-file-name="about_tooth.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.67777777">
-                  <caret line="642" column="4" selection-start-line="642" selection-start-column="4" selection-end-line="642" selection-end-column="4" />
-                  <folding />
+                <state vertical-scroll-proportion="-1.1277778">
+                  <caret line="704" column="0" selection-start-line="704" selection-start-column="0" selection-end-line="704" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#1328#1479#0" expanded="false" />
+                    <element signature="e#1513#1669#0" expanded="false" />
+                    <element signature="e#1703#1859#0" expanded="false" />
+                    <element signature="e#1893#2050#0" expanded="false" />
+                    <element signature="e#2082#2239#0" expanded="false" />
+                    <element signature="e#2936#3088#0" expanded="false" />
+                    <element signature="e#3124#3280#0" expanded="false" />
+                    <element signature="e#3314#3470#0" expanded="false" />
+                    <element signature="e#13914#14109#0" expanded="false" />
+                    <element signature="e#14150#14346#0" expanded="false" />
+                    <element signature="e#14385#14581#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -65,13 +68,12 @@
           <file leaf-file-name="about_tooth.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.10458168">
-                  <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.65547025">
+                  <caret line="96" column="58" selection-start-line="96" selection-start-column="58" selection-end-line="96" selection-end-column="58" />
                   <folding>
                     <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -296,6 +298,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about_tooth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about_tooth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -705,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_tooth/html/about_tooth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about_tooth/css/about_tooth.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0451045">
@@ -801,24 +828,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about_tooth/html/about_tooth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19409762">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10458168">
-          <caret line="120" column="26" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.65547025">
+          <caret line="96" column="58" selection-start-line="96" selection-start-column="58" selection-end-line="96" selection-end-column="58" />
           <folding>
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67777777">
-          <caret line="642" column="4" selection-start-line="642" selection-start-column="4" selection-end-line="642" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="-1.1277778">
+          <caret line="704" column="0" selection-start-line="704" selection-start-column="0" selection-end-line="704" selection-end-column="0" />
+          <folding>
+            <element signature="e#1328#1479#0" expanded="false" />
+            <element signature="e#1513#1669#0" expanded="false" />
+            <element signature="e#1703#1859#0" expanded="false" />
+            <element signature="e#1893#2050#0" expanded="false" />
+            <element signature="e#2082#2239#0" expanded="false" />
+            <element signature="e#2936#3088#0" expanded="false" />
+            <element signature="e#3124#3280#0" expanded="false" />
+            <element signature="e#3314#3470#0" expanded="false" />
+            <element signature="e#13914#14109#0" expanded="false" />
+            <element signature="e#14150#14346#0" expanded="false" />
+            <element signature="e#14385#14581#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
