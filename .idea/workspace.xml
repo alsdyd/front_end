@@ -13,10 +13,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a9c9243-faf6-427c-b2a8-ac008fb5a628" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_tooth_02/images/s6_promotion02_hover.png" afterPath="$PROJECT_DIR$/about_tooth_02/images/s6_promotion02_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/images/s1_sprite_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/images/tooth_logo0001.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/.idea/about_tooth_02.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/js/function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/js/lib/jquery-3.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/js/lib/jquery-3.1.1.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about_tooth_02/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_tooth_02/css/about_tooth.css" afterPath="$PROJECT_DIR$/about_tooth_02/css/about_tooth.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_tooth_02/html/about_tooth.html" afterPath="$PROJECT_DIR$/about_tooth_02/html/about_tooth.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,27 +45,15 @@
     <favorites_list name="front_end" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4453125">
+    <splitter split-orientation="horizontal" split-proportion="0.44696066">
       <split-first>
         <leaf>
           <file leaf-file-name="about_tooth.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.1277778">
-                  <caret line="704" column="0" selection-start-line="704" selection-start-column="0" selection-end-line="704" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#1328#1479#0" expanded="false" />
-                    <element signature="e#1513#1669#0" expanded="false" />
-                    <element signature="e#1703#1859#0" expanded="false" />
-                    <element signature="e#1893#2050#0" expanded="false" />
-                    <element signature="e#2082#2239#0" expanded="false" />
-                    <element signature="e#2936#3088#0" expanded="false" />
-                    <element signature="e#3124#3280#0" expanded="false" />
-                    <element signature="e#3314#3470#0" expanded="false" />
-                    <element signature="e#13914#14109#0" expanded="false" />
-                    <element signature="e#14150#14346#0" expanded="false" />
-                    <element signature="e#14385#14581#0" expanded="false" />
-                  </folding>
+                <state vertical-scroll-proportion="0.3938394">
+                  <caret line="818" column="18" selection-start-line="818" selection-start-column="18" selection-end-line="818" selection-end-column="18" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -68,13 +65,9 @@
           <file leaf-file-name="about_tooth.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.65547025">
-                  <caret line="96" column="58" selection-start-line="96" selection-start-column="58" selection-end-line="96" selection-end-column="58" />
-                  <folding>
-                    <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
+                <state vertical-scroll-proportion="3.9466515">
+                  <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -147,8 +140,8 @@
         <option value="$PROJECT_DIR$/class/js/basic/_11_jquery_sample.html" />
         <option value="$PROJECT_DIR$/class/js/basic/_11-1_find_node_by_id.html" />
         <option value="$PROJECT_DIR$/class/js/basic/_11-2_find_node_by_tag.html" />
-        <option value="$PROJECT_DIR$/about_tooth_02/html/about_tooth.html" />
         <option value="$PROJECT_DIR$/about_tooth_02/css/about_tooth.css" />
+        <option value="$PROJECT_DIR$/about_tooth_02/html/about_tooth.html" />
       </list>
     </option>
   </component>
@@ -160,8 +153,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -448,10 +443,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.115911484" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115911484" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -469,25 +464,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26574075" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115911484" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.122395836" sideWeight="0.508547" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -838,33 +814,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65547025">
-          <caret line="96" column="58" selection-start-line="96" selection-start-column="58" selection-end-line="96" selection-end-column="58" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="3.9466515">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1277778">
-          <caret line="704" column="0" selection-start-line="704" selection-start-column="0" selection-end-line="704" selection-end-column="0" />
-          <folding>
-            <element signature="e#1328#1479#0" expanded="false" />
-            <element signature="e#1513#1669#0" expanded="false" />
-            <element signature="e#1703#1859#0" expanded="false" />
-            <element signature="e#1893#2050#0" expanded="false" />
-            <element signature="e#2082#2239#0" expanded="false" />
-            <element signature="e#2936#3088#0" expanded="false" />
-            <element signature="e#3124#3280#0" expanded="false" />
-            <element signature="e#3314#3470#0" expanded="false" />
-            <element signature="e#13914#14109#0" expanded="false" />
-            <element signature="e#14150#14346#0" expanded="false" />
-            <element signature="e#14385#14581#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.3938394">
+          <caret line="818" column="18" selection-start-line="818" selection-start-column="18" selection-end-line="818" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
