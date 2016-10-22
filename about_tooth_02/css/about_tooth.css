@@ -1,12 +1,20 @@
+html, body{
+  height:100%;
+}
+
 body{
-    background: #00a0d1;
+    background: #2a2a2a;
+}
+
+.wrap{
+  display:none;
+  height:100%;
 }
 
 .header{
     width: 1903px;
     z-index: 999;
     position: fixed;
-
 }
 
 .logo{
@@ -105,35 +113,37 @@ body{
     background: url(../images/s1_st_icon.png) no-repeat -63px 0;
 }
 
+.loading_section{
+  width:435px;
+  height:280px;
+    position:absolute;
+    top:50%;
+    left:50%;
+  margin: -120px 0 0 -217px;
+    z-index:99999;
 
-
-
-
-
-
-
-
-
-
-
-
-
-.container01{
-    width: 100%;
-    height: 1080px;
-    background: url(../images/s1_bg.png) no-repeat;
-    position: relative;
-    float: left;
 }
 
 .loading_logo{
     text-indent: -99999em;
-    width: 280px;
-    height: 227px;
-    background: url(../images/s1_loading_logo.png) no-repeat;
+    width: 190px;
+    height: 190px;
+    background: url(../images/s1_sprite_logo.png) no-repeat;
     position: absolute;
-    top: 396px;
-    left: 42%;
+    top:0;
+    left: 50%;
+    margin-left:-95px;
+}
+
+.loading_logo_text{
+  text-indent: -99999em;
+  width: 280px;
+  height: 29px;
+  background: url(../images/s1_loading_logo.png) no-repeat 0px -198px;
+  position: absolute;
+  bottom:40px;
+  left:50%;
+  margin-left:-140px;
 }
 
 .main_text{
@@ -142,21 +152,24 @@ body{
     height: 20px;
     background: url(../images/s1_text.png) no-repeat;
     position: absolute;
-    top: 653px;
-    left: 38%;
+    bottom:0;
+    left:0;
 }
 
+.container01{
+  width: 100%;
+  height:100%;
+  /*height: 1080px;*/
+  /*background: url(../images/s1_bg.png) no-repeat 50% 0;*/
+  /*background-size:contain;*/
+  position: relative;
+  float: left;
+}
 
-
-
-
-
-
-
-
-
-
-
+.tooth_mask{
+  width:100%;
+  height:100%;
+}
 
 .container02{
     width: 100%;
@@ -650,8 +663,8 @@ body{
 
 
 
-/********************Áø*ÀÔ*±Ý*Áö********************/
-/*****************°Ç*µé*Áö*¸¶*½Ã*¿À*****************/
+/********************ï¿½ï¿½*ï¿½ï¿½*ï¿½ï¿½*ï¿½ï¿½********************/
+/*****************ï¿½ï¿½*ï¿½ï¿½*ï¿½ï¿½*ï¿½ï¿½*ï¿½ï¿½*ï¿½ï¿½*****************/
 
 
 
