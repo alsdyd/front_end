@@ -9,6 +9,8 @@ body{
 .wrap{
   display:none;
   height:100%;
+    min-width: 1200px;
+    mix-width: 1920px;
 }
 
 .header{
@@ -29,13 +31,14 @@ body{
 
 .gnb{
     position: fixed;
-    top: 24px;
-    left: 29%;
+    top: 31px;
+    left: 50%;
+    margin-left: -408px;
 }
 
 .depth1_list{
     float: left;
-    margin: 0 35.5px 0;
+    margin: 0 35px 0;
 }
 
 .depth1_list:first-child>a{
@@ -117,7 +120,7 @@ body{
 
 .sns_icon{
     position: fixed;
-    top: 18px;
+    top: 25px;
     right: 55px;
 }
 
@@ -197,7 +200,7 @@ body{
   text-indent: -99999em;
   width: 280px;
   height: 29px;
-  background: url(../images/s1_loading_logo.png) no-repeat 0px -198px;
+  background: url(../images/s1_loading_logo.png) no-repeat 0 -198px;
   position: absolute;
   bottom:40px;
   left:50%;
@@ -232,25 +235,29 @@ body{
 .container02{
     width: 100%;
     height: 1080px;
-    background: url(../images/s2_bg.png) no-repeat;
+    background: url(../images/s2_bg.png) no-repeat 50% 0;
     position: relative;
     float: left;
+    background-size: cover ;
+}
 
+.con02_page_list{
+    position: absolute;
+    top: 24%;
+    left: 12%;
 }
 
 .con02_teeth_img{
     width: 657px;
     height: 715px;
     background: url(../images/s2_tooth_img.png) no-repeat;
-    position: absolute;
-    left: 234px;
-    top: 256px;
+    float: left;
+    margin-right: 108px;
 }
 
 .con02_text_box{
-    position: absolute;
-    top: 325px;
-    left: 1000px;
+    float: left;
+    margin-top: 90px;
 }
 
 .con02_text_box>div:first-child{
@@ -259,6 +266,16 @@ body{
     height: 84px;
     background: url(../images/s2_text_img01.png) no-repeat;
 }
+
+.con02_text_box>div:first-child:after{
+    content: '';
+    display: block;
+    width: 603px;
+    height: 1px;
+    margin: 100px 0;
+    border-bottom: 1px solid #fff;
+}
+
 
 .con02_text_box>div:nth-child(2){
     text-indent: -99999em;
@@ -276,28 +293,33 @@ body{
     margin-top: 57px;
 }
 
-.con02_page_list:first-child{
-    /*display: none;*/
-}
 
-.con02_page_list:nth-child(2){
+.con02_page_list:first-child{
     display: none;
 }
 
+.con02_page_list:nth-child(2){
+    /*display: none;*/
+}
+
+.con02_2_title_text:after{
+    content: '';
+    display: block;
+    width: 603px;
+    height: 1px;
+    margin: 150px 0;
+    border-bottom: 1px solid #fff;
+}
 
 .con02_2_teeth_img{
     width: 790px;
     height: 774px;
     background: url(../images/s2_2_tooth_img.png) no-repeat;
-    position: absolute;
-    top: 256px;
-    left: 208px;
+    float: left;
 }
 
 .con02_2_text_box{
-    position: absolute;
-    top: 283px;
-    left: 996px;
+    float: left;
 }
 
 .con02_2_title_text{
@@ -329,6 +351,22 @@ body{
     width: 340px;
     height: 44px;
     background: url(../images/s2_2_st_text_img02.png) no-repeat 0 -210px ;
+}
+
+.con02_page_btn{
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    margin-left: -15px;
+}
+
+.con02_page_btn>li{
+    text-indent: -99999em;
+    width: 10px;
+    height: 10px;
+    background: url(../images/s2_st_page_btn.png) no-repeat 0 0;
+    float: left;
+    margin-right: 10px;
 }
 
 .container03{
@@ -497,7 +535,8 @@ body{
     background: url(../images/s5_look_btn.png) no-repeat;
     position: absolute;
     top: 105px;
-    left: 41%;
+    left: 50%;
+    margin-left: -157px;
 }
 
 .con05_look_page_btn:hover{
@@ -508,7 +547,8 @@ body{
     background: url(../images/s5_look_btn_hover.png) no-repeat;
     position: absolute;
     top: 105px;
-    left: 42%;
+    left: 50%;
+    margin-left: -157px;
 }
 
 .con05_iphone{
@@ -516,8 +556,8 @@ body{
     height: 783px;
     background: url(../images/s5_iphone_hend.png) no-repeat;
     position: absolute;
-    top: 297px;
-    left: 457px;
+    top: 28%;
+    left: 24%;
 }
 
 
@@ -527,8 +567,8 @@ body{
     height: 239px;
     background: url(../images/s5_title.png) no-repeat;
     position: absolute;
-    top: 361px;
-    right: 356px;
+    top: 33%;
+    left: 56%;
 }
 
 .con05_download_btn{
@@ -538,8 +578,8 @@ body{
     height: 237px;
     background: url(../images/s5_app_store_btn.png) no-repeat;
     position: absolute;
-    right: 405px;
-    bottom: 214px;
+    top: 59%;
+    left: 53%;
 }
 
 
@@ -799,8 +839,9 @@ body{
     height: 94px;
     background: url(../images/s6_buy_text.png) no-repeat;
     position: absolute;
-    left: 652px;
+    left: 50%;
     bottom: 990px;
+    margin-left: -307px;
 }
 
 .con06_buy_product_img{
@@ -809,8 +850,9 @@ body{
     height: 261px;
     background: url(../images/s6_buy_product.png) no-repeat;
     position: absolute;
-    left: 898px;
+    left: 50%;
     bottom: 610px;
+    margin-left: -61px;
 }
 
 .con06_buy_product_img:hover{
@@ -819,8 +861,9 @@ body{
     height: 261px;
     background: url(../images/s6_buy_product_hover.png) no-repeat;
     position: absolute;
-    left: 898px;
+    left: 50%;
     bottom: 610px;
+    margin-left: -61px;
 }
 
 .con06_buy_btn{
@@ -829,8 +872,9 @@ body{
     height: 96px;
     background: url(../images/s6_buy_btn.png) no-repeat;
     position: absolute;
-    left: 787px;
+    left: 50%;
     bottom: 427px;
+    margin-left: -169px;
 }
 
 .con06_buy_btn:hover {
@@ -839,8 +883,9 @@ body{
     height: 96px;
     background: url(../images/s6_buy_btn_hover.png) no-repeat;
     position: absolute;
-    left: 787px;
+    left: 50%;
     bottom: 427px;
+    margin-left: -169px;
 }
 
 .con06_award{
@@ -849,8 +894,9 @@ body{
     height: 132px;
     background: url(../images/s6_award.png) no-repeat;
     position: absolute;
-    left: 812px;
+    left: 50%;
     bottom: 45px;
+    margin-left: -147px;
 }
 
 .footer{
@@ -860,6 +906,30 @@ body{
     position: relative;
     float: left;
     color: #fff;
+}
+
+.ft_content {
+    position: relative;
+    left: 50%;
+    margin-left: -554px;
+}
+
+.ft_content_list{
+    float: left;
+    margin-top: 40px;
+}
+
+.ft_content_list:nth-child(2){
+    margin-right: 222px;
+    margin-left: 173px;
+}
+
+.ft_content_list_title{
+    margin-bottom: 36px;
+}
+
+.ft_content_list>ul>li{
+    margin-bottom: 20px;
 }
 
 .ft_access_terms_list>a{
@@ -889,6 +959,23 @@ body{
     background: url(../images/footer_content_title.png) no-repeat -910px 0;
 
 }
+
+.ft_copy{
+    text-indent: -99999em;
+    width: 262px;
+    height: 13px;
+    background: url(../images/footer_copy.png) no-repeat;
+    margin: 290px auto 11px;
+}
+
+.ft_logo{
+    text-indent: -99999em;
+    width: 287px;
+    height: 29px;
+    background: url(../images/footer_logo.png) no-repeat;
+    margin: 0 auto;
+}
+
 
 /* common style */
 
