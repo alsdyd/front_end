@@ -14,7 +14,7 @@ body{
 }
 
 .header{
-    width: 1903px;
+    width: 100%;
     z-index: 999;
     position: fixed;
 }
@@ -910,8 +910,7 @@ body{
 
 .ft_content {
     position: relative;
-    left: 50%;
-    margin-left: -554px;
+    margin-left: 400px;
 }
 
 .ft_content_list{
@@ -949,7 +948,6 @@ body{
     width: 129px;
     height: 22px;
     background: url(../images/footer_content_title.png) no-repeat -457px 0;
-
 }
 
 .ft_content_list:last-child>.ft_content_list_title{
@@ -957,7 +955,6 @@ body{
     width: 187px;
     height: 22px;
     background: url(../images/footer_content_title.png) no-repeat -910px 0;
-
 }
 
 .ft_copy{

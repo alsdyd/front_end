@@ -41,8 +41,8 @@
           <file leaf-file-name="about_tooth.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.47634763">
-                  <caret line="363" column="25" selection-start-line="363" selection-start-column="25" selection-end-line="363" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.35533553">
+                  <caret line="911" column="23" selection-start-line="911" selection-start-column="23" selection-end-line="911" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -55,9 +55,14 @@
           <file leaf-file-name="about_tooth.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.69012487">
-                  <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-                  <folding />
+                <state vertical-scroll-proportion="0.5902384">
+                  <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
+                  <folding>
+                    <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -130,8 +135,8 @@
         <option value="$PROJECT_DIR$/class/js/basic/_11-1_find_node_by_id.html" />
         <option value="$PROJECT_DIR$/class/js/basic/_11-2_find_node_by_tag.html" />
         <option value="$PROJECT_DIR$/master/baskinrabins.html" />
-        <option value="$PROJECT_DIR$/about_tooth_02/css/about_tooth.css" />
         <option value="$PROJECT_DIR$/about_tooth_02/html/about_tooth.html" />
+        <option value="$PROJECT_DIR$/about_tooth_02/css/about_tooth.css" />
       </list>
     </option>
   </component>
@@ -380,7 +385,7 @@
       <recent name="C:\Users\user\Desktop\front_end\class\html" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.dothome.html">
+  <component name="RunManager" selected="JavaScript Debug.about_tooth.html">
     <configuration default="false" name="_11-1_find_node_by_id.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front_end/class/js/basic/_11-1_find_node_by_id.html">
       <method />
     </configuration>
@@ -443,9 +448,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dothome.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.baskinrabins.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.about_tooth.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.about_tooth.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.dothome.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.baskinrabins.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug._11-2_find_node_by_tag.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug._11-1_find_node_by_id.html" />
       </list>
@@ -465,7 +470,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115911484" sideWeight="0.491453" order="0" side_tool="false" content_ui="combo" />
@@ -509,7 +514,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,18 +867,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
+    <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47634763">
-          <caret line="363" column="25" selection-start-line="363" selection-start-column="25" selection-end-line="363" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.5902384">
+          <caret line="175" column="38" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
+          <folding>
+            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_tooth_02/html/about_tooth.html">
+    <entry file="file://$PROJECT_DIR$/about_tooth_02/css/about_tooth.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69012487">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.35533553">
+          <caret line="911" column="23" selection-start-line="911" selection-start-column="23" selection-end-line="911" selection-end-column="23" />
           <folding />
         </state>
       </provider>
