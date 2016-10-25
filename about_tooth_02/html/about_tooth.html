@@ -37,7 +37,22 @@
   </header>
 
   <section class="container01">
-    <img src="../images/s1_bg.png" class="tooth_mask" />
+
+    <img src="../images/s1_bg.png" class="tooth_mask_bg" />
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="tooth_mask_front">
+      <defs>
+        <filter id="filter">
+          <feGaussianBlur stdDeviation="20"/>
+        </filter>
+        <mask id="mask">
+          <ellipse class="el" cx="50%" cy="70%" rx="200px" ry="200px" fill="white" filter="url(#filter)"></ellipse>
+        </mask>
+      </defs>
+
+      <image xlink:href="../images/s1_content.png" mask="url(#mask)" class="tooth_mask_front_image"></image>
+    </svg>
+
   </section>
 
   <section class="container02">
